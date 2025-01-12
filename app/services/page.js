@@ -11,7 +11,7 @@ export const metadata = {
 const ServicePage = () => {
   return (
     <NoxfolioLayout>
-      <PageBanner pageName={"Popular Service"} />
+      <PageBanner pageName={"تیم من"} />
 
       <section className="what-i-do-area pt-25 rpt-0 pb-130 rpb-100 rel z-1">
         <div className="container">
@@ -21,15 +21,15 @@ const ServicePage = () => {
                 <div className="first-image">
                   <img
                     src="assets/images/about/what-i-do1.jpg"
-                    alt="What I do"
+                    alt=" "
                   />
                 </div>
-                <div className="last-image">
+                {/* <div className="last-image">
                   <img
                     src="assets/images/about/what-i-do2.jpg"
                     alt="What I do"
                   />
-                </div>
+                </div> */}
                 <div className="icon first">
                   <i className="flaticon-asterisk-1" />
                 </div>
@@ -41,23 +41,22 @@ const ServicePage = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="what-i-do-content wow fadeInUp delay-0-4s">
                 <div className="section-title mb-40">
-                  <span className="sub-title mb-15">What I Do</span>
+                  <span className="sub-title mb-15">آنچه ما انجام می‌دهیم</span>
                   <h2>
-                    Real <span>Problem Solutions</span> Experience
+                  تجربه‌ای برای <span>حل مشکلات</span>  واقعی
                   </h2>
                   <p>
-                    At vero eos et accusamus etodio dignissimos ducimus praesen
-                    tium voluptat corrupti quos dolores quas molestias{" "}
+                  .ما با تمرکز بر چالش‌های واقعی، راه‌حل‌هایی حرفه‌ای ارائه می‌دهیم تا مشکلات را برطرف کنیم تا شما نتایج مطلوب را به دست آورید{" "}
                   </p>
                 </div>
                 <ul className="list-style-two pb-50">
-                  <li>5+ Years Of Experience</li>
-                  <li>Professional Web Designer</li>
-                  <li>Mobile Apps Design</li>
+                  <li>بیش از 5 سال تجربه کار تیمی</li>
+                  <li>طراح حرفه‌ای وب و اپلیکیشن موبایل</li>
+                  <li>ابزار های جدید مبتنی بر هوش مصنوعی</li>
                 </ul>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn">
-                    Learn More <i className="far fa-angle-right" />
+                    بیشتر بدانید <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
@@ -80,7 +79,7 @@ const ServicePage = () => {
       {/* What I Do Area end */}
       <Services extraClass={"bgc-black"} />
       {/* Pricing Area start */}
-      <Pricing extraClass={"pb-100"} />
+      {/* <Pricing extraClass={"pb-100"} /> */}
     </NoxfolioLayout>
   );
 };

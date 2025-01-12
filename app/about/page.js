@@ -31,7 +31,7 @@ const About = () => {
                 <div className="section-title mb-35 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">درباره من</span>
                   <h2>
-                  تخصص ما، رفع چالش‌های دیجیتال شماست.
+                  تخصص من، رفع چالش‌های دیجیتال شماست.
                   </h2>
                   <p>
                   با هم، ایده‌ها را به واقعیت تبدیل می‌کنیم.
