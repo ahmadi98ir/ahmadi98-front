@@ -2,7 +2,7 @@ import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import Link from "next/link";
 
 export const metadata = {
-  title: "404 Error",
+  title: "404 خطا",
 };
 
 const E404 = () => {
